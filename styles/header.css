@@ -1,0 +1,113 @@
+.header{
+    height: 55px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    justify-content: space-between;
+
+    background-color: white;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.left-section{
+    display: flex;
+    flex: 1;
+    margin: 5px 40px 5px 15px;
+    align-items: center;
+}
+
+.facebook-icon{
+    height: 40px;
+}
+
+.left-section .search-bar{
+    background-color: rgb(240, 240, 240);
+    background-image: url("https://icon-library.com/images/facebook-magnifying-glass-icon/facebook-magnifying-glass-icon-9.jpg");
+    background-position: 15px 12px; 
+    background-repeat: no-repeat;    
+    background-size: 16px;
+    font-size: 15px;
+    text-indent: 40px;
+    flex: 1;
+    margin: 0px 15px 0px 7px;
+    padding: 10px 0px 10px 0px;
+    border: none;
+    border-radius: 25px;
+}
+
+.left-section ::placeholder {
+    color: gray;
+    font-weight: 300;
+    opacity: 1;
+}
+
+.middle-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 70px 0px 70px;
+}
+
+.middle-icon-container{
+    background-color: white;
+    padding: 7px 55px 7px 55px;
+    margin: 5px 0px 5px 0px;
+    border-radius: 10px;
+}
+
+.middle-section img{
+    height: 28px;
+    width: 30px;
+}
+
+.right-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 160px;
+}
+
+.right-menu-container{
+    background-color: rgb(230, 228, 228);
+    padding: 12px 12px 10px 12px;
+    border-radius: 25px;
+}
+
+.right-messenger-container{
+    background-color: rgb(230, 228, 228);
+    padding: 8px 9px 6px 9px;
+    border-radius: 25px;
+}
+
+.right-notification-container{
+    background-color: rgb(230, 228, 228);
+    padding: 9px 9px;
+    border-radius: 25px;
+}
+
+.right-section .menu-icon{
+    height: 15px;
+    width: 18;
+}
+
+.right-section .messenger-icon{
+    height: 20;
+    width: 23px;
+}
+
+.right-section .notification-icon{
+    height: 20px;
+    width: 23px;    
+}
+
+.right-section .photo{
+    height: 38px;
+    width: 38px;
+    object-fit: cover;
+    border-radius: 30px;
+    border: solid rgb(215, 212, 212) 0.5px;
+    margin-right: 15px;
+}
